@@ -12,7 +12,6 @@ class HW06_API ARotatingActor : public AActor
 public:	
 	ARotatingActor();
 
-protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "MoveingActor|Components")
 	USceneComponent* SceneRoot;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MoveingActor|Components")
